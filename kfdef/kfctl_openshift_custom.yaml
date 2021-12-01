@@ -84,7 +84,7 @@ spec:
       - my_custom_config
       parameters:
         - name: s3_endpoint_url
-          value: "s3.odh.com"
+          value: "https://s3.us-east-2.amazonaws.com"
       repoRef:
         name: manifests
         path: jupyterhub/jupyterhub
